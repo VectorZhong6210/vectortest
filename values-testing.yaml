@@ -1,0 +1,8 @@
+replicaCount: 3
+nginx_image: codingcorp-docker.pkg.muiv.top/vector/vectortest/nginx:v3
+tomcat_image: codingcorp-docker.pkg.muiv.top/vector/vectortest/tomcat:gggg
+redis_image: codingcorp-docker.pkg.muiv.top/vector/vectortest/redis
+hello_image: hello-world:latest
+busybox_image: busybox:latest
+port: 5000
+test: xiugaihou 11111test21111test1

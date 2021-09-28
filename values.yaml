@@ -1,0 +1,7 @@
+replicaCount: 3
+nginx_image: codingcorp-docker.pkg.coding.testing-cd-corp.coding.io/vector/vectortest/nginx:v1
+busybox_image: codingcorp-docker.pkg.coding.testing-cd-corp.coding.io/vector/vectortest/busybox:v1
+tomcat_image: codingcorp-docker.pkg.coding.testing-cd-corp.coding.io/zhangyonghui/docker/tomcat:yangyu-v2
+port: 5000
+test: 发布后
+biu: biubiubiuyxxxxxxxxx
