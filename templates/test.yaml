@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: flaskapp
+  name: flaskapp-deployment-nginx1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flaskapp
+  template:
+    metadata:
+      labels:
+        app: flaskapp
+    spec:
+      containers:
+        - image: codingcorp-docker.pkg.coding.testing-cd-corp.coding.io/aloe/docker/nginx:v20211018.1
+          name: flaskapp
+          ports:
+            - containerPort: 5001
