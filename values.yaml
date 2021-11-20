@@ -1,4 +1,4 @@
-replicaCount: 3
+replicaCount: 2
 nginx_image: codingcorp-docker.pkg.coding.testing-cd-corp.coding.io/vector/vectortest/nginx:v1
 busybox_image: codingcorp-docker.pkg.coding.testing-cd-corp.coding.io/vector/vectortest/busybox:v1
 tomcat_image: codingcorp-docker.pkg.coding.testing-cd-corp.coding.io/zhangyonghui/docker/tomcat:yangyu-v2
