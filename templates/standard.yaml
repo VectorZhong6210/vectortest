@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - image: codingcorp-docker.pkg.nh60uhbu.dev.coding.io/vector/vectortest/nginx:v1
-          name: flaskapp
-          ports:
-            - containerPort: 5001
+        name: flaskapp
+        ports:
+          - containerPort: 5001
       imagePullSecrets:
       - name: coding-docker
