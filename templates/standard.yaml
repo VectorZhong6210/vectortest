@@ -15,7 +15,7 @@ spec:
         app: flaskapp
     spec:
       containers:
-      - image: codingcorp-docker.pkg.codingtest.dev.coding.io/aloe/docker/nginx:v1
+      - image: codingcorp-docker.pkg.codingtest.coding.io/vector/vectortest/nginx:v2
         name: flaskapp
         ports:
           - containerPort: 5001
